@@ -5799,6 +5799,11 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
+vue-router@4:
+  version "4.0.6"
+  resolved "https://registry.npm.taobao.org/vue-router/download/vue-router-4.0.6.tgz?cache=0&sync_timestamp=1617697726574&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-router%2Fdownload%2Fvue-router-4.0.6.tgz#91750db507d26642f225b0ec6064568e5fe448d6"
+  integrity sha1-kXUNtQfSZkLyJbDsYGRWjl/kSNY=
+
 w3c-hr-time@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/w3c-hr-time/download/w3c-hr-time-1.0.2.tgz#0a89cdf5cc15822df9c360543676963e0cc308cd"
