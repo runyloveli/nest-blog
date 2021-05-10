@@ -1,0 +1,7 @@
+{
+  "name": "vuepress",
+  "version": "1.0.0",
+  "description": "my docs",
+  "main": "index.js",
+  "license": "MIT"
+}
