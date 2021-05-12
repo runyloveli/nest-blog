@@ -208,7 +208,9 @@
       </div>
       <!---->
     </div>
-    <div class="todo"></div>
+    <div class="todoing">
+      <Todo></Todo>
+    </div>
   </div>
 </template>
 
@@ -218,6 +220,7 @@ import Todo from "./Todo.vue";
 import { ref, defineComponent } from "vue";
 export default defineComponent({
   name: "Home",
+  components: { Todo },
   setup: () => {
     const count = ref(0);
     return { count };
