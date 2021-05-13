@@ -26,9 +26,16 @@
     "@nestjs/common": "^7.6.15",
     "@nestjs/core": "^7.6.15",
     "@nestjs/platform-express": "^7.6.15",
+    "@nestjs/swagger": "^4.8.0",
+    "@typegoose/typegoose": "^7.6.0",
+    "@types/mongoose": "5.10.2",
+    "mongoose": "5.10.18",
+    "nestjs-mongoose-crud": "^2.1.2",
+    "nestjs-typegoose": "^7.1.38",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
     "rxjs": "^6.6.6",
+    "swagger-ui-express": "^4.1.6",
     "vue-router": "^4.0.6"
   },
   "devDependencies": {

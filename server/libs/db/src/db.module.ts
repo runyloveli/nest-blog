@@ -7,11 +7,16 @@ const models = TypegooseModule.forFeature([User]);
 @Global()
 @Module({
   imports: [
-    TypegooseModule.forRoot('mongod://localhost/topfullstack', {
-      useNewUrlParser: true,
-      useUnifiedTopology: true,
-      useCreateIndex: true,
-      useFindAndModify: false,
+    TypegooseModule.forRootAsync({
+      useFactory() {
+        return {
+          uri: 'mongodb://localhost/topfullstack',
+          useNewUrlParser: true,
+          useUnifiedTopology: true,
+          useCreateIndex: true,
+          useFindAndModify: false,
+        };
+      },
     }),
     models,
   ],

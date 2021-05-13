@@ -9,6 +9,6 @@ async function bootstrap() {
     prefix: '/public/', //设置虚拟路径
   });
   await app.listen(3000);
-  console.log(`server run at http://localhost: 3000`);
+  console.log(`server run at http://localhost:3000`);
 }
 bootstrap();
