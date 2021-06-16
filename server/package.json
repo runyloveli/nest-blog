@@ -10,7 +10,7 @@
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "nodemon": "node -r ts-node/register src/main.ts",
-    "pm2": "pm2 start npm -- run nodemon",
+    "pm2": "pm2 start npm -- run nodemon --name blogserver",
     "start": "nest start -w admin",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
